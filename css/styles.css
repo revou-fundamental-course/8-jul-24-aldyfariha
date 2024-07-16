@@ -3,6 +3,10 @@
     
 }
 
+html {
+    background-color: rgb(242, 250, 239);
+}
+
 .main-content {
     display: flex;
     flex-direction: row;
@@ -20,6 +24,11 @@
     padding: 30px;
 }
 
+.section-form {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 input[type=number] {
     width: 100%;
     padding: 12px 20px;
@@ -30,7 +39,7 @@ input[type=number] {
     box-sizing: border-box;
   }
 
-  input[type=submit] {
+button {
     width: 100%;
     background-color: #4CAF50;
     color: white;
@@ -41,4 +50,21 @@ input[type=number] {
     cursor: pointer;
   }
 
-  
+.form-input {
+    background-color: rgb(150, 218, 162);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.box-hasil {
+    background-color: rgb(150, 218, 162);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.hasil-bmi {
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+}
