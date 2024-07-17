@@ -17,12 +17,12 @@ html {
 }
 
 .section-kiri {
-    width: 50vw;
+    width: 50%;
     padding: 30px;
 }
 
 .section-kanan {
-    width: 50vw;
+    width: 50%;
     padding: 30px;
 }
 /* Content utama flex kanan kiri - END */
@@ -96,11 +96,20 @@ button {
 /* Form Input, Hasil, Tabel, dan Button Styling - END */
 
 
-/* Agar flex menjadi coloumn saat layar kurang dari 1000px */
-@media (max-width: 1000px) {
+/* Agar flex menjadi coloumn saat layar (mobile) kurang dari 600px */
+@media (max-width: 600px) {
     .main-content {
       flex-direction: column;
     }
+    .section-kiri {
+        width: 100%;
+        padding: 0;
+    }
+    .section-kanan {
+        width: 100%;
+        padding: 0;
+    }
   }
 
-/* Agar flex menjadi coloumn saat layar kurang dari 1000px  - END*/
+
+/* Agar flex menjadi coloumn saat layar (mobile) kurang dari 600px  - END*/
