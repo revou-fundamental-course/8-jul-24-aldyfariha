@@ -41,6 +41,7 @@ function hitungBmi(event) {
     kategoriBmiElement.textContent = `${klasifikasiBmi(parseFloat(bmi))}`;
     dataUserElement.textContent = `${usi}`;
     jenisKelaminElement.textContent = jenisKelamin.value;
+    alert('Berhasil, silahkan lihat hasilnya pada bagian Hasil BMI')
 }
 
 // Reset Button 
