@@ -3,10 +3,12 @@
     
 }
 
+/* Background color keseluruhan */
 html {
     background-color: rgb(242, 250, 239);
 }
 
+/* Content utama flex kanan kiri */
 .main-content {
     display: flex;
     flex-direction: row;
@@ -23,7 +25,19 @@ html {
     width: 50vw;
     padding: 30px;
 }
+/* Content utama flex kanan kiri - END */
 
+ /* Align text artikel menjadi justify */
+p {
+    text-align: justify;
+}
+
+#pembukaan {
+    text-align: justify;
+}
+ /* Align text artikel menjadi justify - END */
+
+/* Form Input, Hasil, Tabel, dan Button Styling */
 .section-form {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -71,7 +85,7 @@ button {
 
 .tabel-bmi {
     width: 100%;
-    height: 200px;
+    height: 150px;
     margin: none;
     padding: 10px;
     align-items: center;
@@ -79,3 +93,14 @@ button {
     background-color: rgb(150, 218, 162);
     border-radius: 20px;
 }
+/* Form Input, Hasil, Tabel, dan Button Styling - END */
+
+
+/* Agar flex menjadi coloumn saat layar kurang dari 1000px */
+@media (max-width: 1000px) {
+    .main-content {
+      flex-direction: column;
+    }
+  }
+
+/* Agar flex menjadi coloumn saat layar kurang dari 1000px  - END*/
